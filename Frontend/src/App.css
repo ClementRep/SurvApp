@@ -1,0 +1,91 @@
+.container {
+  display: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.Survey-Form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form-check-input {
+  border-color: crimson;
+}
+
+#sub-Button {
+  align-items: center;
+}
+
+table {
+  border: 6px solid black;
+  margin-left: 60px;
+}
+
+.checkboxes {
+  display: inline;
+  background-color: green;
+}
+
+.Heading-home {
+  display: flex;
+  align-content: center;
+  position: inherit;
+}
+
+Home-text {
+  position: relative;
+}
+
+.Btn-Link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: grey;
+  width: 105px;
+  opacity: 1;
+  border-color: red;
+  border: 2px solid;
+  border-radius: 12px;
+}
+
+.Link {
+  text-decoration: none;
+  color: floralwhite;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* keyframe we set the name slide to slide it
+starts from 0percent of the screen to move to last
+poiint of the screen
+*/
+@keyframes Slide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(180%);
+  }
+}
+
+/* link the animation with our slider keyframe*/
+.Home-text {
+  position: absolute;
+  animation: Slide 5s linear infinite;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+.App {
+  background-color: antiquewhite;
+}
